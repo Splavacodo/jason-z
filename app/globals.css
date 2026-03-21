@@ -11,6 +11,7 @@
   --color-primary-bg: var(--primary-bg);
   --color-secondary-bg: var(--secondary-bg);
   --color-foreground-bg: var(--foreground-bg);
+  --color-accent: var(--accent);
   --font-noto-sans-jp: var(--font-noto-sans-jp);
   --font-noto-sans: var(--font-noto-sans);
 }

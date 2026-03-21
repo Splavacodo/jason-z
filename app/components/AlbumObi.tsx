@@ -1,3 +1,4 @@
+import ExternalLink from "./ExternalLink"
 
 export default function AlbumObi() {
     return (
@@ -5,8 +6,19 @@ export default function AlbumObi() {
             <div className="flex flex-col items-center gap-4">
                 <div className="[writing-mode:vertical-rl] text-[45cqb] font-noto-sans-jp font-medium text-primary-bg">ザモラジャソン</div>
                 <div className="w-4/5 border-2 border-primary-bg"></div>
-                {/* <div className="flex flex-col">
-                </div> */}
+                <div className="grow flex flex-row gap-2">
+                    <ExternalLink
+                        externalURL="https://www.linkedin.com/in/jasonz/"
+                        buttonIconPath="/linkedin.svg"
+                        iconDescription="linkedin logo"
+                    >linkedin/jasonz</ExternalLink>
+                    
+                    <ExternalLink
+                        externalURL="https://github.com/Splavacodo"
+                        buttonIconPath="/github.svg"
+                        iconDescription="github logo"
+                    >github/Splavacodo</ExternalLink>
+                </div>
             </div>
 
             <div className="flex flex-col pt-1">
