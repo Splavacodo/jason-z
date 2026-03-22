@@ -9,13 +9,13 @@ export default function ExternalLink(
             href={externalURL}
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex items-center [writing-mode:vertical-rl] gap-2 font-noto-sans font-semibold text-sm hover:text-accent origin-center">
+            className="group flex items-center [writing-mode:vertical-rl] gap-2 font-noto-sans font-semibold text-[8px] md:text-sm hover:text-accent origin-center">
             <Image
                 src={buttonIconPath}
                 alt={iconDescription}
-                width={24}
-                height={24}
-                className="rotate-90
+                width={18}
+                height={18}
+                className="rotate-90 md:w-8 md:h-8 w-4 h-4
                            [filter:brightness(0)_saturate(100%)_invert(0%)_sepia(1%)_saturate(3140%)_hue-rotate(22deg)_brightness(93%)_contrast(76%)] 
                            group-hover:[filter:brightness(0)_saturate(100%)_invert(38%)_sepia(94%)_saturate(2289%)_hue-rotate(246deg)_brightness(98%)_contrast(98%)]"
             />
@@ -25,9 +25,10 @@ export default function ExternalLink(
             <Image
                 src={"/open-in-new.svg"}
                 alt="redirect to external website icon"
-                width={24}
-                height={24}
-                className="mt-auto [filter:brightness(0)_saturate(100%)_invert(38%)_sepia(94%)_saturate(2289%)_hue-rotate(246deg)_brightness(98%)_contrast(98%)] opacity-0 group-hover:opacity-100"
+                width={18}
+                height={18}
+                className="rotate-90 md:w-8 md:h-8 w-4 h-4
+                           [filter:brightness(0)_saturate(100%)_invert(38%)_sepia(94%)_saturate(2289%)_hue-rotate(246deg)_brightness(98%)_contrast(98%)] opacity-0 group-hover:opacity-100"
             />
         </a>
     );
