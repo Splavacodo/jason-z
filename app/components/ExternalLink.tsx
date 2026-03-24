@@ -9,7 +9,7 @@ export default function ExternalLink(
             href={externalURL}
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex items-center [writing-mode:vertical-rl] gap-2 font-noto-sans font-semibold text-[8px] md:text-sm hover:text-accent origin-center">
+            className="group flex items-center [writing-mode:vertical-rl] gap-2 font-noto-sans font-semibold text-xs md:text-sm lg:text-lg hover:text-accent origin-center">
             <Image
                 src={buttonIconPath}
                 alt={iconDescription}
