@@ -1,4 +1,5 @@
-import ExternalLink from "./ExternalLink"
+import CopyButton from "./CopyButton";
+import ExternalLink from "./ExternalLink";
 
 export default function AlbumObi() {
     return (
@@ -25,11 +26,10 @@ export default function AlbumObi() {
                         iconDescription="github logo"
                     >github/Splavacodo</ExternalLink>
 
-                    <ExternalLink
-                        externalURL="https://github.com/Splavacodo"
-                        buttonIconPath="/github.svg"
-                        iconDescription="github logo"
-                    >github/Splavacodo</ExternalLink>
+                    <CopyButton
+                        textToCopy="jasonZee808@gmail.com"
+                        textPlaceholder="jasonZee808@gmail.com"
+                    />
                 </div>
         </div>
     )
